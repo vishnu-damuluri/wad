@@ -1,0 +1,20 @@
+{
+  "name": "salon-proj",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-pg-simple": "^9.0.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "nodemon": "^3.1.0",
+    "password-validator": "^5.3.0",
+    "pg": "^8.11.5"
+  }
+}
